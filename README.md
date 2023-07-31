@@ -5,7 +5,7 @@
 docker-compose up -d
 ```
 
-Для выключения -
+Для выключения
 ```bash
 docker-compose down
 ```
