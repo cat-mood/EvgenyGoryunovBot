@@ -9,7 +9,7 @@ from aiogram.filters.command import Command
 logging.basicConfig(level=logging.INFO)
 
 async def main():
-    bot = Bot(token=os.getenv("TOKEN"))
+    bot = Bot(token=os.getenv("TOKEN"), parse_mode="HTML")
     dp = Dispatcher()
 
     dp.include_routers(funcs.router)
